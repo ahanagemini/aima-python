@@ -4,44 +4,44 @@ In this assignment, you will implement the **Reflex-Vacuum-Agent** algorithm des
 
 ## 📖 Reference Material
 You can view the logic for this agent here:
-*   **[AIMA Figure 2.8 Pseudocode (PDF)](https://aima.cs.berkeley.edu/figures.pdf)**
-    *   *Note: Open the PDF and scroll to **page 7** to find the Reflex-Vacuum-Agent logic.*
+*   **[AIMA Figure 2.8 Pseudocode (PDF)](https://berkeley.edu)**
+    *   *Note: Open the PDF and scroll to **page 7** to find the Reflex-Vacuum-Agent.*
+
+
+## 🛠 Command Line Workflow
+
+### 1. Clone your personal repository
+```bash
+git clone <your-personal-repo-url>
+cd <your-repo-folder>
+```
 
 ---
 
 ## 📋 Your Task
 1. **Open** `agent.py`.
-2. **Implement** the logic for `ReflexVacuumAgent(percept)` based on the rules in Figure 2.8:
+2. **Implement** the logic for `ReflexVacuumAgent(percept)` based on Figure 2.8:
    - If status is **Dirty**, return **'Suck'**.
    - If location is **A**, return **'Right'**.
    - If location is **B**, return **'Left'**.
 
 ---
 
-## 🛠 Command Line Workflow
-
-### 1. Clone & Navigate
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
-```
-
-### 2. Test Locally
-Run the provided test script to check your logic:
+### 2. Run the local tests
+Run this script to verify your logic before submitting:
 ```bash
 python3 test_agent.py
 ```
 
-### 3. Submit
+### 3. Submit your work
 ```bash
 git add agent.py
 git commit -m "Completed Figure 2.8"
-git push origin ch2-agent
+git push origin main
 ```
 
 ---
 
 ## ✅ Submission Checklist
-- [ ] `test_agent.py` passes with a green checkmark.
-- [ ] Changes are pushed to the `ch2-agent` branch.
-- [ ] The `agent.py` file on GitHub contains your implementation.
+- [ ] `test_agent.py` prints "✅ All Figure 2.8 tests passed!"
+- [ ] Your code is pushed to the **main** branch of your GitHub repository.
